@@ -26,10 +26,11 @@ def Main():
         calculate_price()
     elif(cmd == "2"):
         calculate_boostmaster_price()
-    elif (cmd == "3"):
+    elif (cmd == "4"):
         #Change settings
         change_settings()
     else:
+        global is_running
         is_running = False
 
 def calculate_price():
